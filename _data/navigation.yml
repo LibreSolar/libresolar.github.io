@@ -1,0 +1,62 @@
+
+main:
+#  - title: "Blog"
+#    url: /blog/
+
+  - title: "Mission"
+    url: /mission/
+
+  - title: "Devices"
+    url: /devices/
+
+  - title: "Docs"
+    url: /docs/
+
+  - title: "About"
+    url: /about/
+
+
+devices:
+  - title: General
+    children:
+      - title: "Overview"
+        url: /devices/
+      - title: "Communication subsystem"
+        url: /devices/communication/
+
+  - title: Charge controller
+    children:
+      - title: "MPPT charger 20A"
+        url: /devices/mppt-charger/
+  - title: Battery Management
+    children:
+      - title: "24-48V BMS"
+        url: /devices/bms-48v/
+      - title: "BMS 5s"
+        url: /devices/bms-5s/
+      - title: "Other Projects"
+        url: /devices/other-projects/
+
+docs:
+  - title: Overview
+    children:
+      - title: "Contents"
+        url: /docs/
+      - title: "Environment and tools"
+        url: /docs/environment/
+  - title: Hardware
+    children:
+      - title: "PCB production"
+        url: /docs/pcb/
+      - title: "Parts ordering"
+        url: /docs/bom/
+#      - title: "Soldering"
+#        url: /docs/soldering/
+  - title: Software
+    children:
+#      - title: "Development"
+#        url: /docs/development/
+      - title: "Flashing"
+        url: /docs/flashing/
+#      - title: "Testing"
+#        url: /docs/testing/
