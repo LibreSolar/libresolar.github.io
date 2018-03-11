@@ -1,14 +1,14 @@
 ---
-title: "Overview of Energy System Elements"
+title: "DC Energy System Overview"
 excerpt: "The Open Source Energy System will consist of several connected consumers and produces."
 permalink: /devices/
 ---
 
-The different open-source hardware components of the energy system should form an intelligent DC nano-grid, consisting of several energy consumers and producers.
+The vision behind Libre Solar is to develop an intelligent energy system built on open-source hardware components. The single components of the energy system communicate with each other to optimize energy flows and consumption.
 
-A first idea of the system approach is shown in the following picture.
+The following pictur gives an overview of the energy system:
 
-![Energy System Overview](/images/48V_DC_nanogrid_structure.png)
+![Energy System Overview](/images/dc_nanogrid.png)
 
-The necessary hardware and protocols will be developed step-by-step.
+Devices already under development can be found in the navigation on the left. Further devices and the communication protocol will be introduced step-by-step.
 

@@ -17,14 +17,13 @@ main:
 
 
 devices:
-  - title: General
-    children:
-      - title: "Overview"
-        url: /devices/
-      - title: "Communication subsystem"
-        url: /devices/communication/
-
-  - title: Charge controller
+#  - title: System Overview
+#    children:
+#      - title: "Overview"
+#        url: /devices/
+#      - title: "Communication subsystem"
+#        url: /devices/communication/
+  - title: Charge Controller
     children:
       - title: "MPPT charger 20A"
         url: /devices/mppt-charger/
@@ -34,29 +33,37 @@ devices:
         url: /devices/bms-48v/
       - title: "BMS 5s"
         url: /devices/bms-5s/
-      - title: "Other Projects"
-        url: /devices/other-projects/
+#      - title: "Other Projects"
+#        url: /devices/other-projects/
+  - title: Other devices
+    children:
+      - title: "RPi CAN gateway"
+        url: /devices/rpi-can-gw/
 
 docs:
-  - title: Overview
-    children:
-      - title: "Contents"
-        url: /docs/
-      - title: "Environment and tools"
-        url: /docs/environment/
   - title: Hardware
     children:
-      - title: "PCB production"
-        url: /docs/pcb/
-      - title: "Parts ordering"
+      - title: "PCB layout"
+        url: /docs/pcb_layout/
+      - title: "PCB ordering"
+        url: /docs/pcb_ordering/
+      - title: "Bill of Materials"
         url: /docs/bom/
-#      - title: "Soldering"
-#        url: /docs/soldering/
   - title: Software
     children:
-#      - title: "Development"
-#        url: /docs/development/
+      - title: "Toolchain"
+        url: /docs/toolchain/
       - title: "Flashing"
         url: /docs/flashing/
 #      - title: "Testing"
 #        url: /docs/testing/
+#  - title: Communication
+#    children:
+#      - title: "Open Energy Monitor"
+#        url: /docs/emon/
+#      - title: "ThingSet Protocol"
+#        url: /docs/thingset/
+#      - title: "CAN bus interface"
+#        url: /docs/can_interface/
+
+

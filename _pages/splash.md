@@ -12,7 +12,7 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Open Source Renewable Energy Hardware. For Everyone."
 feature_row:
-  - image_path: images/MPPT_charger_20A_rendered.png
+  - image_path: images/mppt-charger_20a.jpg
     alt: "Image of MPPT charger"
     title: "MPPT charger 20A"
     excerpt: "Flexible battery charge controller for solar panels or bicycle generators."
@@ -26,12 +26,12 @@ feature_row:
     url: "/devices/bms-48v/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: images/48V_DC_nanogrid_structure_crop.png
-    title: "Communication sub-system"
-    excerpt: "Planned CANopen based communication sub-system."
-    url: "/devices/communication/"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
+#  - image_path: images/48V_DC_nanogrid_structure_crop.png
+#    title: "Communication sub-system"
+#    excerpt: "Planned CANopen based communication sub-system."
+#    url: "/devices/communication/"
+#    btn_label: "Read More"
+#    btn_class: "btn--inverse"
 ---
 
 {% include feature_row %}

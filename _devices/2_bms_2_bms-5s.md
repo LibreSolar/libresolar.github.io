@@ -1,5 +1,5 @@
 ---
-title: "5s (12V) Battery Management System"
+title: "5-cell Battery Management System (12V)"
 excerpt: "Flexible battery management system for 12V system voltage"
 permalink: /devices/bms-5s/
 ---
