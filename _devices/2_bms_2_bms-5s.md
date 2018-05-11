@@ -28,5 +28,5 @@ The BMS should fit into a Hammond Mfg 1591XXBFL housing as shown in below pictur
 
 The BMS is under active development and you are welcome to participate.
 
-Visit the [GitHub page](https://github.com/LibreSolar/BMS_5s) for schematics and board layout.
+Visit the [GitHub page](https://github.com/LibreSolar/BMS-5s) for schematics and board layout.
 
