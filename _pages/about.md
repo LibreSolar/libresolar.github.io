@@ -13,10 +13,18 @@ So far, the Libre Solar devices have been developed mainly by the originator of 
 
 The prototypes of the devices are produced in [Fabulous St. Pauli](http://www.fablab-hamburg.org/), where we have a laser cutter and a reflow oven. A first demonstration project in the FabLab using the MPPT charge controller is currently in progress.
 
+## Donation
+
+If you want to support the LibreSolar project, you can donate via LiberaPay:
+
+<script src="https://liberapay.com/LibreSolar/widgets/button.js"></script>
+<noscript><a href="https://liberapay.com/LibreSolar/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+
+Thank you!
 
 ## Imprint / Impressum
 
-Verantwortlich für den Inhalt der Webseite:
+Responsible for the content of this website / Verantwortlich für den Inhalt der Webseite:
 
 Dr. Martin Jäger  
 Hein-Hoyer-Str. 18  
