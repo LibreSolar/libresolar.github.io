@@ -1,7 +1,7 @@
 ---
 title: "PCB ordering"
 excerpt: "How to export Gerber files from KiCad and send them to the PCB fab house"
-permalink: /docs/pcb_ordering/
+permalink: /docs/pcb_ordering
 ---
 
 The first step to build up the hardware is ordering a PCB. Most of the Libre Solar components are too complex to be produced at home, so you will have to order the PCBs. This step-by-step guide will show how to obtain all necessary data for the fab house. We will use the Libre Solar MPPT charge controller as an example, but the steps are the same for all other projects.

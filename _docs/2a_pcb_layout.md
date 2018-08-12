@@ -1,7 +1,7 @@
 ---
 title: "PCB layout"
 excerpt: ""
-permalink: /docs/pcb_layout/
+permalink: /docs/pcb_layout
 ---
 
 The Libre Solar project files are all open source and [stored on GitHub](https://github.com/LibreSolar). There is a separate repository for each PCB and an additional repository for the software.
@@ -17,7 +17,7 @@ instead of the download button on github.
 
 Except for some old boards, all Libre Solar electronics hardware is built using the open source PCB design software [KiCad 5](http://kicad-pcb.org/).
 
-As KiCad version 5 contains lots of interesting new features (better rendering, rounded pads, STEP export, better symbol file format), the Libre Solar PCBs were recently converted to this version. Unfortunately, the files are not compatible with the older KiCad version 4 anymore. Please download the nightly builds or the stable KiCad version 5 as soon as it is released.
+As KiCad version 5 contains lots of interesting new features (better rendering, rounded pads, STEP export, better symbol file format), the Libre Solar PCBs were recently converted to this version.
 
 Custom footprints and symbols are saved in separate repositories:
 

@@ -17,53 +17,51 @@ main:
 
 
 devices:
-#  - title: System Overview
-#    children:
-#      - title: "Overview"
-#        url: /devices/
-#      - title: "Communication subsystem"
-#        url: /devices/communication/
   - title: Charge Controller
     children:
       - title: "MPPT charger 20A"
-        url: /devices/mppt-charger/
+        url: /devices/mppt-charger
   - title: Battery Management
     children:
       - title: "24-48V BMS"
-        url: /devices/bms-48v/
+        url: /devices/bms-48v
       - title: "BMS 5s"
-        url: /devices/bms-5s/
+        url: /devices/bms-5s
 #      - title: "Other Projects"
 #        url: /devices/other-projects/
   - title: Other devices
     children:
       - title: "RPi CAN gateway"
-        url: /devices/rpi-can-gw/
+        url: /devices/rpi-can-gw
 
 docs:
+  - title: System
+    children:
+      - title: "DC Nanogrid"
+        url: /docs/nanogrid
   - title: Hardware
     children:
       - title: "PCB layout"
-        url: /docs/pcb_layout/
+        url: /docs/pcb_layout
       - title: "PCB ordering"
-        url: /docs/pcb_ordering/
+        url: /docs/pcb_ordering
       - title: "Bill of Materials"
-        url: /docs/bom/
+        url: /docs/bom
   - title: Software
     children:
       - title: "Toolchain"
-        url: /docs/toolchain/
+        url: /docs/toolchain
       - title: "Flashing"
-        url: /docs/flashing/
+        url: /docs/flashing
 #      - title: "Testing"
-#        url: /docs/testing/
-#  - title: Communication
-#    children:
+#        url: /docs/testing
+  - title: Communication
+    children:
 #      - title: "Open Energy Monitor"
-#        url: /docs/emon/
-#      - title: "ThingSet Protocol"
-#        url: /docs/thingset/
+#        url: /docs/emon
+      - title: "ThingSet Protocol"
+        url: /docs/thingset
 #      - title: "CAN bus interface"
-#        url: /docs/can_interface/
+#        url: /docs/can_interface
 
 

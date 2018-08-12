@@ -6,6 +6,7 @@ permalink: /docs/
 
 This section describes the different steps needed to reproduce and use the open source hardware components of the Libre Solar ecosystem:
 
+- System Layout (DC Nanogrid)
 - Hardware design and ordering
 - Software toolchain and flashing
 - ThingSet communication protocol
