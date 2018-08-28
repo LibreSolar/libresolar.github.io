@@ -6,7 +6,7 @@ permalink: /devices/
 
 The vision behind Libre Solar is to develop an intelligent energy system built on open-source hardware components. The single components of the energy system communicate with each other to optimize energy flows and consumption.
 
-The following pictur gives an overview of the energy system:
+The following picture gives an overview of the energy system:
 
 ![Energy System Overview](/images/dc_nanogrid.png)
 
