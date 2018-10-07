@@ -39,6 +39,8 @@ docs:
     children:
       - title: "DC Nanogrid"
         url: /docs/nanogrid
+      - title: "DC/DC modes"
+        url: /docs/dcdc_control
   - title: Hardware
     children:
       - title: "PCB layout"
