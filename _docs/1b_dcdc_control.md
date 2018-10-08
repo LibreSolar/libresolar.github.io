@@ -8,11 +8,11 @@ Synchronous DC/DC controllers like the Libre Solar MPPT charge controllers can b
 
 The connections at the high-side and low-side of the DC/DC converter are named ports. A port can be either input or output or both (e.g. in case of a battery).
 
-The control mode of the DC/DC converter must ensure that the limits of each device connected to a port are not violated. Limits are mainly current or voltage set points of the different types of ports.
+The control mode of the DC/DC converter must ensure that the limits of each device connected to a port are not violated. Limits are mainly current or voltage set points.
 
 ## Devices and port types
 
-The following diagrams give an overview of different port types. A positive current is defined as a current out of the DC/DC converter port into the connected device. Thus, a battery charging current is defined as a positive current whereas a solar panel always has a negative port current, as the current goes into the DC/DC converter.
+The following diagrams give an overview of different port types. A positive current is defined as a current out of the DC/DC converter port into the connected device. Thus, a battery charging current is defined as a positive current. A solar panel always has a negative port current, as the current goes into the DC/DC converter.
 
 All ports share the same set of calibration parameters which makes it easy to configure the DC/DC controller firmware for different operation strategies depending on the connected devices:
 
@@ -29,13 +29,13 @@ All ports share the same set of calibration parameters which makes it easy to co
 
 ## Solar PV panel port
 
-A port with a solar panel connected always acts as an input. Even though reverse current could flow into the solar panel is phyisically possible (see elongated blue characteristic curve), this is not desirable and should be prevented by the charge controller algorithm and hardware.
+A solar panel port always acts as an input. Even though reverse current flow into the solar panel is physically possible (see elongated blue characteristic curve), it is not desirable and should be prevented by the charge controller algorithm and/or hardware.
 
-Above v<sub>in,target</sub> (around 17V for a so-called 12V panel), the charge controller is switched on and starts current draw from the solar panel. If during dusk the voltage drops, the charge controller shuts down at v<sub>in,limit</sub> (around 15V for a 12V panel).
+Above v<sub>in,target</sub> (around 17 V for a so-called 12 V panel), the charge controller is switched on and starts current input from the solar panel. If the voltage drops during dusk, the charge controller shuts down at v<sub>in,limit</sub> (around 15 V for a 12 V panel).
 
 ![DC/DC control for solar port](/images/dcdc_port_solar.png)
 
-If the output port allows, the solar panel will be operated in the maximum power point to use as much electrical energy as possible.
+If the output port allows, the solar panel will be operated in the maximum power point to generate as much power as possible.
 
 ## Battery port
 
@@ -48,13 +48,13 @@ Batteries can be used as an input and as an output. The following table shows ty
 | v<sub>in,target</sub>  |  12.8 V               | 12.6 V                  |
 | v<sub>in,limit</sub>   |  11.7 V               | 12.0 V                  |
 
-The droop resistance can be used to compensate the wire resistance if the wire length and cross-section are known (the value of R<sub>droop</sub> has to be negative).
+The droop resistance can be used to compensate the wire resistance if known (the value of R<sub>droop</sub> has to be negative).
 
 ![DC/DC control for battery port](/images/dcdc_port_battery.png)
 
 ## Nanogrid port (battery type)
 
-A nanogrid port which provides an energy storage system to the grid and hase a control scheme as shown below. It implements DC bus signaling to communicated the state of the system (see chapter DC Nanogrid).
+A nanogrid port acting as an energy storage system for the grid has a control scheme as shown below. It implements DC bus signaling to communicate the state of the system (see chapter DC Nanogrid).
 
 ![DC/DC control for nanogrid port](/images/dcdc_port_nanogrid.png)
 
