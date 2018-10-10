@@ -14,6 +14,9 @@ Our mission is to help reclaiming the energy supply using affordable renewable e
 
 The primary focus of Libre Solar is solar electricity generation and storage. Accordingly, the initial open source hardware projects are a MPPT charge controller and a battery management system for Lithium ion batteries.
 
+<iframe src="https://player.vimeo.com/video/292732744" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/292732744">Libre Solar - Explainer Video</a> from <a href="https://vimeo.com/flojoart">flojoART</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 ## Why not wind power?
 
 Libre Solar mainly focuses on solar energy generation because the power of solar electricity generation scales linear with the area of panels. Simply put, it does not matter if you have some two or three solar panels on each appartment roof or one large solar power plant with the same amount of panels. Small-scale solar systems might be even better, as they don’t suffer from partial shading problems.
