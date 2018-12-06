@@ -3,3 +3,7 @@ _assets/js/plugins/* linguist-vendored
 _assets/js/vendor/* linguist-vendored
 assets/fonts/* linguist-vendored
 assets/js/vendor/* linguist-vendored
+
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
