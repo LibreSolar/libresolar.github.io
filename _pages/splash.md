@@ -12,11 +12,18 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Open Source Renewable Energy Hardware. For Everyone."
 feature_row:
+  - image_path: images/mppt-charger_10a.png
+    alt: "Image of 10A MPPT charger"
+    title: "MPPT charger 10A"
+    excerpt: "Flexible solar charge controller with integrated USB output."
+    url: "/devices/mppt-charger-10a/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
   - image_path: images/mppt-charger_20a.jpg
-    alt: "Image of MPPT charger"
+    alt: "Image of 20A MPPT charger"
     title: "MPPT charger 20A"
     excerpt: "Flexible battery charge controller for solar panels or bicycle generators."
-    url: "/devices/mppt-charger/"
+    url: "/devices/mppt-charger-20a/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: images/bms24v_board_20161217.jpg

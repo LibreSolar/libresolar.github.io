@@ -4,6 +4,8 @@ excerpt: "Flexible battery management system for 12V system voltage"
 permalink: /devices/bms-5s/
 ---
 
+![Development Stage](https://img.shields.io/badge/development%20stage-release%20candidate-yellow.svg) Tested prototype, only minor issues left.
+
 Battery management system for up to 5 Li-ion cells based on bq76920 IC from Texas Instruments
 
 ## Features

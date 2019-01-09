@@ -198,6 +198,9 @@ compress_html:
 
 # Collections
 collections:
+  mission:
+    output: true
+    permalink: /:collection/:path/
   devices:
     output: true
     permalink: /:collection/:path/
@@ -234,6 +237,18 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # _mission
+  - scope:
+      path: ""
+      type: mission
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "mission"
   # _devices
   - scope:
       path: ""

@@ -3,6 +3,8 @@ title: "CAN interface for Raspberry Pi (Zero W)"
 permalink: /devices/rpi-can-gw/
 ---
 
+![Development Stage](https://img.shields.io/badge/development%20stage-release%20candidate-yellow.svg) Tested prototype, only minor issues left.
+
 This interface PCB allows to read data from the CAN bus connecting the Libre Solar components. So the Raspberry Pi can be used as a gateway to IoT applications and energy monitoring (e.g. using Open Energy Monitor).
 
 The pin header is compatible with all Raspberry Pi models, but the size is especially suited for the Raspberry Pi Zero W.

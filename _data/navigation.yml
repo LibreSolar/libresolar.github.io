@@ -15,24 +15,35 @@ main:
   - title: "About"
     url: /about/
 
+mission:
+  - title: Libre Solar
+    children:
+      - title: "Mission Statement"
+        url: /mission/
+  - title: Collaboration
+    children:
+      - title: "Open HW Projects"
+        url: /mission/open-hw-projects/
 
 devices:
   - title: Charge Controller
     children:
-      - title: "MPPT charger 20A"
-        url: /devices/mppt-charger
+      - title: "MPPT 20A + CAN"
+        url: /devices/mppt-charger-20a
+      - title: "MPPT 10A + USB"
+        url: /devices/mppt-charger-10a
   - title: Battery Management
     children:
       - title: "24-48V BMS"
         url: /devices/bms-48v
       - title: "BMS 5s"
         url: /devices/bms-5s
-#      - title: "Other Projects"
-#        url: /devices/other-projects/
   - title: Other devices
     children:
       - title: "RPi CAN gateway"
         url: /devices/rpi-can-gw
+      - title: "UEXT modules"
+        url: /devices/uext-modules/
 
 docs:
   - title: System
@@ -55,15 +66,7 @@ docs:
         url: /docs/toolchain
       - title: "Flashing"
         url: /docs/flashing
-#      - title: "Testing"
-#        url: /docs/testing
   - title: Communication
     children:
-#      - title: "Open Energy Monitor"
-#        url: /docs/emon
       - title: "ThingSet Protocol"
         url: /docs/thingset
-#      - title: "CAN bus interface"
-#        url: /docs/can_interface
-
-

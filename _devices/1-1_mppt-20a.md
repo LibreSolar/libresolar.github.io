@@ -1,8 +1,10 @@
 ---
 title: "MPPT charger (20A)"
 excerpt: "Flexible battery charge controller for solar panels or bicycle generators."
-permalink: /devices/mppt-charger/
+permalink: /devices/mppt-charger-20a/
 ---
+
+![Development Stage](https://img.shields.io/badge/development%20stage-beta-orange.svg) Prototype built, development ongoing (major issues might still be open).
 
 The Libre Solar project started with the development of this flexible and hackable MPPT charge controller. After a few prototypes using Arduino boards and AVR 8-bit microcontrollers, the current version is based on 32-bit STM32 ARM MCU with lots of free computing power to allow your own additions in software and communication features.
 
