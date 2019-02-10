@@ -12,6 +12,9 @@ main:
   - title: "Docs"
     url: /docs/
 
+  - title: "Community"
+    url: https://talk.libre.solar/
+
   - title: "About"
     url: /about/
 
