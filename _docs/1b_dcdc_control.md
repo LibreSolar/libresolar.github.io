@@ -21,8 +21,8 @@ All ports share the same set of calibration parameters which makes it easy to co
 | v<sub>out,target</sub> | Maximum voltage of an output port (e.g. charging voltage of a battery)                        |
 | v<sub>out,min</sub>    | Minimum voltage to allow current output (e.g. to prevent charging deep-discharged batteries)  |
 | R<sub>droop</sub>      | Allows to adjust the target voltage depending on output/input current                         |
-| v<sub>in,target</sub>  | Voltage threshold at which input current is reduced. Below this voltage, the DC/DC should not start up. |
-| v<sub>in,limit</sub>   | Voltage threshold at which the DC/DC is switched off (e.g. to prevent deep-discharge of a battery) |
+| v<sub>in,start</sub>   | Voltage threshold at which input current is reduced. Below this voltage, the DC/DC should not start up. |
+| v<sub>in,stop</sub>    | Voltage threshold at which the DC/DC is switched off (e.g. to prevent deep-discharge of a battery) |
 | i<sub>min</sub>        | Maximum input current (e.g. discharging a battery)  |
 | i<sub>max</sub>        | Maximum output current (e.g. charging a battery)  |
 
@@ -31,7 +31,7 @@ All ports share the same set of calibration parameters which makes it easy to co
 
 A solar panel port always acts as an input. Even though reverse current flow into the solar panel is physically possible (see elongated blue characteristic curve), it is not desirable and should be prevented by the charge controller algorithm and/or hardware.
 
-Above v<sub>in,target</sub> (around 17 V for a so-called 12 V panel), the charge controller is switched on and starts current input from the solar panel. If the voltage drops during dusk, the charge controller shuts down at v<sub>in,limit</sub> (around 15 V for a 12 V panel).
+Above v<sub>in,start</sub> (around 17 V for a so-called 12 V panel), the charge controller is switched on and starts current input from the solar panel. If the voltage drops during dusk, the charge controller shuts down at v<sub>in,stop</sub> (around 15 V for a 12 V panel).
 
 ![DC/DC control for solar port](/images/dcdc_port_solar.png)
 
@@ -45,8 +45,8 @@ Batteries can be used as an input and as an output. The following table shows ty
 |------------------------|-----------------------|-------------------------|
 | v<sub>out,target</sub> |  14.4 V (absorption)  | 14.2 V                  |
 | v<sub>out,min</sub>    |  10 V                 | 10.4 V                  |
-| v<sub>in,target</sub>  |  12.8 V               | 12.6 V                  |
-| v<sub>in,limit</sub>   |  11.7 V               | 12.0 V                  |
+| v<sub>in,start</sub>   |  12.8 V               | 12.6 V                  |
+| v<sub>in,stop</sub>    |  11.7 V               | 12.0 V                  |
 
 The droop resistance can be used to compensate the wire resistance if known (the value of R<sub>droop</sub> has to be negative).
 
@@ -62,6 +62,8 @@ During start-up of the nanogrid port, the DC/DC controller raises the voltage un
 
 v<sub>target</sub> = v<sub>out,target</sub> - i * R<sub>droop</sub>
 
-If another energy producer is connected to the grid (e.g. a solar panel using an additional DC/DC converter), the voltage will rise. As soon as it reaches v<sub>in,target</sub>, the nanogrid controller will start charging the battery from the grid. Again, the current will only rise slowly with increased voltage to allow smooth transitions and control of the grid.
+If another energy producer is connected to the grid (e.g. a solar panel using an additional DC/DC converter), the voltage will rise. As soon as it reaches v<sub>in,start</sub>, the nanogrid controller will start charging the battery from the grid. Again, the current will only rise slowly with increased voltage to allow smooth transitions and control of the grid.
 
-The hysteresis between v<sub>out,target</sub> and v<sub>in,target</sub> is necessary to prevent unnecessary energy transmission between multiple batteries attached to the grid.
+For a nanogrid port, the v<sub>in,stop</sub> threshold is set to something very low, lower than v<sub>out,target</sub>, as the DCDC should not stop at low input voltage, but change the current direction insead.
+
+The hysteresis between v<sub>out,target</sub> and v<sub>in,start</sub> is necessary to prevent unnecessary energy transmission between multiple batteries attached to the grid.

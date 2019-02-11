@@ -26,9 +26,11 @@ Thank you!
 
 Responsible for the content of this website / Verantwortlich für den Inhalt der Webseite:
 
-Dr. Martin Jäger
-Hein-Hoyer-Str. 18
-20359 Hamburg
+Dr. Martin Jäger<br/>
+Hein-Hoyer-Str. 18<br/>
+20359 Hamburg<br/>
 
-Telefon: +49 (0) 160 94179007
-E-Mail: info at libre dot solar
+Telefon: +49 (0) 160 94179007<br/>
+E-Mail: info at libre dot solar<br/>
+
+**Remark:** I don't answer technical questions via E-Mail. Please use the [community platform](https://talk.libre.solar) instead, so that others with similar questions can also find the information.
