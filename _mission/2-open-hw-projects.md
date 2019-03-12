@@ -12,6 +12,18 @@ This collective based in Hamburg rebuilt and documented some of the Libre Solar 
 
 Website: [cos-h.cc](http://cos-h.cc/)
 
+### Connected Energy
+
+We are partnering with the UK-based Connected Energy Ltd. to provide open source energy systems for people off the grid in rural areas. The open source enables localized, distributed manufacturing of the devices.
+
+Website: [connected-energy.net](https://www.connectedenergy.net/)
+
+### Open Energy Access Alliance
+
+As co-founders of the Open Energy Access Alliance we want to join forces to facilitate access to affordable, reliable, sustainable and modern energy sources, in line with the UN’s Sustainable Development Goal 7.
+
+Website: [openenergy.cc](http://openenergy.cc/)
+
 ### Open Source Ecology (Germany)
 
 Libre Solar collaborated with OSE Germany and built some devices together. You can find descriptions of the projects in their Wiki.
