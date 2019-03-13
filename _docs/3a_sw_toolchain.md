@@ -6,6 +6,8 @@ permalink: /docs/toolchain
 
 The firmware for the Libre Solar hardware is developed using the [ARM mbed OS](https://developer.mbed.org/) embedded software framework. This makes it possible to use easy-to-understand C++ syntax (similar to Arduino) and enhances community based software development.
 
+You can find the firmware in the [Libre Solar GitHub profile](https://github.com/LibreSolar) as repositories separate from the hardware files.
+
 We recommend to use Visual Studio Code and [PlatformIO](http://platformio.org/) as an IDE for software development.
 
 All Libre Solar software repositories are structured as PlatformIO projects:

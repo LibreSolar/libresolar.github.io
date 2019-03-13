@@ -35,6 +35,8 @@ devices:
         url: /devices/mppt-charger-20a
       - title: "MPPT 10A + USB"
         url: /devices/mppt-charger-10a
+      - title: "PWM 20A + USB"
+        url: /devices/pwm-charger-20a
   - title: Battery Management
     children:
       - title: "24-48V BMS"
