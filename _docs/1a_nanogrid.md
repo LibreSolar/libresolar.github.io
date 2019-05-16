@@ -1,7 +1,7 @@
 ---
 title: "DC Nanogrid System Layout"
 excerpt: "Open Source DC Nanogrid based on 48V featuring DC bus signaling for reliable basic communication"
-permalink: /docs/nanogrid
+permalink: /docs/nanogrid/
 ---
 
 The Libre Solar components are developed to be used inside a DC based nanogrid with multiple energy sources and sinks. An example system layout is shown in the following picture:
@@ -34,7 +34,7 @@ Connects two distribution buses of possibly different current ratings (i.e. wire
 
 Types of current interrupt devices:
 
-- passive: 
+- passive:
 	- Fuse or polyfuse?
 	- Circuit breaker
 - active: Switch

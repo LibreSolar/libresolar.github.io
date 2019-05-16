@@ -1,7 +1,7 @@
 ---
 title: "ThingSet Protocol"
 excerpt: "ThingSet protocol used for communication between Libre Solar components"
-permalink: /docs/thingset
+permalink: /docs/thingset/
 ---
 
 The ThingSet protocol provides a consistent, standardized way to configure, monitor and control ressource-constrained devices via different communication interfaces. The application layer protocol is widely independent of the underlying transport protocols and physical interfaces (e.g. CAN, USB, WiFi, Bluetooth or a simple serial interface).

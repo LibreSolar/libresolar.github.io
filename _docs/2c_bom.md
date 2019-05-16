@@ -1,7 +1,7 @@
 ---
 title: "Bill of Materials (BOM)"
 excerpt: "How to export the BOM in KiCAD for parts ordering"
-permalink: /docs/bom
+permalink: /docs/bom/
 ---
 
 The Bill of Materials (BOM) lists all the parts of the PCB and is one of the most important documents for the manufacturing process.

@@ -3,9 +3,6 @@ main:
 #  - title: "Blog"
 #    url: /blog/
 
-  - title: "Mission"
-    url: /mission/
-
   - title: "Devices"
     url: /devices/
 
@@ -18,15 +15,21 @@ main:
   - title: "About"
     url: /about/
 
-mission:
+about:
   - title: Libre Solar
     children:
-      - title: "Mission Statement"
-        url: /mission/
+      - title: "About"
+        url: /about/
+      - title: "Mission"
+        url: /about/mission/
+#      - title: "Jobs"
+#        url: /about/jobs/
+      - title: "Contact"
+        url: /about/contact/
   - title: Collaboration
     children:
       - title: "Open HW Projects"
-        url: /mission/open-hw-projects/
+        url: /about/open-hw-projects/
 
 devices:
   - title: Charge Controller
@@ -48,7 +51,7 @@ devices:
       - title: "RPi CAN gateway"
         url: /devices/rpi-can-gw
       - title: "UEXT modules"
-        url: /devices/uext-modules/
+        url: /devices/uext-modules
 
 docs:
   - title: System

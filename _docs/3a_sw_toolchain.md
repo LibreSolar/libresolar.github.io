@@ -1,7 +1,7 @@
 ---
 title: "Firmware Development Toolchain"
 excerpt: "ARM mbed embedded software environment used for Libre Solar hardware"
-permalink: /docs/toolchain
+permalink: /docs/toolchain/
 ---
 
 The firmware for the Libre Solar hardware is developed using the [ARM mbed OS](https://developer.mbed.org/) embedded software framework. This makes it possible to use easy-to-understand C++ syntax (similar to Arduino) and enhances community based software development.

@@ -1,7 +1,7 @@
 ---
 title: "Flashing the firmware"
 excerpt: "ARM mbed embedded software environment used for Libre Solar hardware"
-permalink: /docs/flashing
+permalink: /docs/flashing/
 ---
 
 There are basically two ways to upgrade the firmware of the Libre Solar hardware. For development we recommend to purchase an STM Nucleo board with integrated ST-Link/V2 debug adapter. The boards are very cheap and allow not only firmware upgrade but also debugging via the serial wire debug (SWD) interface. If you want to upgrade to an already tested new firmware version, you might aswell use the USB interface which does not need any additional hardware except for a Micro USB cable (the same as used for smart phones).

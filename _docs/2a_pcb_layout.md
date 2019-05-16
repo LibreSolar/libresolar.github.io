@@ -1,12 +1,12 @@
 ---
 title: "PCB layout"
 excerpt: ""
-permalink: /docs/pcb_layout
+permalink: /docs/pcb_layout/
 ---
 
 The Libre Solar project files are all open source and [stored on GitHub](https://github.com/LibreSolar). There is a separate repository for each PCB and an additional repository for the software.
 
-Some of the repositories contain git submodules, so please use 
+Some of the repositories contain git submodules, so please use
 ```
 git clone --recursive <repository>
 ```

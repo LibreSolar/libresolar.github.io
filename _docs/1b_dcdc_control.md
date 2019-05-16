@@ -1,7 +1,7 @@
 ---
 title: "DC/DC Control Modes"
 excerpt: "General control strategies for DC/DC controllers converting energy between batteries, solar and nanogrids"
-permalink: /docs/dcdc_control
+permalink: /docs/dcdc_control/
 ---
 
 Synchronous DC/DC controllers like the Libre Solar MPPT charge controllers can be operated as boost or buck converters. Buck converters have a current flow from high-side to low-side, boost converters in the opposite direction.
@@ -64,6 +64,6 @@ v<sub>target</sub> = v<sub>out,target</sub> - i * R<sub>droop</sub>
 
 If another energy producer is connected to the grid (e.g. a solar panel using an additional DC/DC converter), the voltage will rise. As soon as it reaches v<sub>in,start</sub>, the nanogrid controller will start charging the battery from the grid. Again, the current will only rise slowly with increased voltage to allow smooth transitions and control of the grid.
 
-For a nanogrid port, the v<sub>in,stop</sub> threshold is set to something very low, lower than v<sub>out,target</sub>, as the DCDC should not stop at low input voltage, but change the current direction insead.
+For a nanogrid port, the v<sub>in,stop</sub> threshold is set to something very low, lower than v<sub>out,target</sub>, as the DCDC should not stop at low input voltage, but change the current direction instead.
 
 The hysteresis between v<sub>out,target</sub> and v<sub>in,start</sub> is necessary to prevent unnecessary energy transmission between multiple batteries attached to the grid.

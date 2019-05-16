@@ -1,7 +1,7 @@
 ---
 title: "Open Hardware Projects"
 excerpt: "Overview of projects related to open source energy hardware"
-permalink: /mission/open-hw-projects/
+permalink: /about/open-hw-projects/
 ---
 
 This page lists a few other Open Source Hardware projects related to energy conversion and monitoring.
@@ -14,7 +14,7 @@ Website: [cos-h.cc](http://cos-h.cc/)
 
 ### Connected Energy
 
-We are partnering with the UK-based Connected Energy Ltd. to provide open source energy systems for people off the grid in rural areas. The open source enables localized, distributed manufacturing of the devices.
+We are partnering with the UK-based Connected Energy Technologies Ltd. to provide open source energy systems for people off the grid in rural areas. The open source enables localized, distributed manufacturing of the devices.
 
 Website: [connected-energy.net](https://www.connectedenergy.net/)
 
@@ -22,7 +22,7 @@ Website: [connected-energy.net](https://www.connectedenergy.net/)
 
 As co-founders of the Open Energy Access Alliance we want to join forces to facilitate access to affordable, reliable, sustainable and modern energy sources, in line with the UN’s Sustainable Development Goal 7.
 
-Website: [openenergy.cc](http://openenergy.cc/)
+Website: [openenergy.cc](https://openenergy.cc/)
 
 ### Open Source Ecology (Germany)
 
@@ -36,7 +36,7 @@ Open Energy Monitor provides an entire framework including software and hardware
 
 Website: [openenergymonitor.org](https://openenergymonitor.org)
 
-### SBMS100 from Dacian Todea
+### SBMS100 by Dacian Todea
 
 The Solar BMS (Solar Battery Management System) is a powerful 100A solar charge controller including a BMS for 3 to 8 Lithium ion cells. This solar charge controller does not feature Maximum Power Point Tracking (MPPT) because of good reasons (see Dacians video explanations for this).
 

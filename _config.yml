@@ -9,7 +9,7 @@
 locale                   : "en"
 title                    : "Libre Solar"
 title_separator          : "-"
-name                     : "Martin Jäger"
+name                     : "Libre Solar Technologies GmbH"
 description              : "Open Source Energy Hardware"
 url                      : "" #"https://libresolar.github.io" #"http://127.0.0.1:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -198,13 +198,13 @@ compress_html:
 
 # Collections
 collections:
-  mission:
-    output: true
-    permalink: /:collection/:path/
   devices:
     output: true
     permalink: /:collection/:path/
   docs:
+    output: true
+    permalink: /:collection/:path/
+  about:
     output: true
     permalink: /:collection/:path/
 
@@ -235,20 +235,8 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: std
       author_profile: false
-  # _mission
-  - scope:
-      path: ""
-      type: mission
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "mission"
   # _devices
   - scope:
       path: ""
@@ -273,5 +261,17 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
+  # _about
+  - scope:
+      path: ""
+      type: about
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "about"
 
 

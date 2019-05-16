@@ -3,7 +3,7 @@ title: "Mission Statement"
 layout: single
 excerpt: "Libre Solar Mission Statement - Free renewable energy for all."
 sitemap: false
-permalink: /mission/
+permalink: /about/mission/
 ---
 
 Clean energy from renewable sources should be accessible for everyone. Otherwise, how should we ever manage to limit global warming and reach the sustainable development goals?
