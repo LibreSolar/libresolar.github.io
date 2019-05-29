@@ -32,20 +32,26 @@ about:
         url: /about/open-hw-projects/
 
 devices:
-  - title: Charge Controller
+  - title: Charge Controllers
     children:
-      - title: "MPPT 20A + CAN"
-        url: /devices/mppt-charger-20a
-      - title: "MPPT 10A + USB"
-        url: /devices/mppt-charger-10a
-      - title: "PWM 20A + USB"
-        url: /devices/pwm-charger-20a
+      - title: "Overview"
+        url: /devices/cc-overview
+      - title: "MPPT 2420 LC"
+        url: /devices/mppt-2420-lc
+      - title: "MPPT 1210 HUS"
+        url: /devices/mppt-1210-hus
+      - title: "PWM 2420 LUS"
+        url: /devices/pwm-2420-lus
   - title: Battery Management
     children:
-      - title: "24-48V BMS"
-        url: /devices/bms-48v
-      - title: "BMS 5s"
-        url: /devices/bms-5s
+      - title: "Overview"
+        url: /devices/bms-overview
+      - title: "BMS 15S80 SC"
+        url: /devices/bms-15s80-sc
+      - title: "BMS 5S50 SC"
+        url: /devices/bms-5s50-sc
+      - title: "BMS 8S50 IC"
+        url: /devices/bms-8s50-ic
   - title: Other devices
     children:
       - title: "RPi CAN gateway"

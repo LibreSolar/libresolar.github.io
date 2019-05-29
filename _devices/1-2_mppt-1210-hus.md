@@ -1,7 +1,7 @@
 ---
-title: "MPPT charger (10A)"
+title: "MPPT charger (10A) with dual USB output"
 excerpt: "Flexible solar charge controller with integrated USB output."
-permalink: /devices/mppt-charger-10a/
+permalink: /devices/mppt-1210-hus/
 ---
 
 ![Development Stage](https://img.shields.io/badge/development%20stage-release%20candidate-yellow.svg) Tested prototype, only minor issues left.
@@ -35,4 +35,4 @@ With the integrated dual USB output you can directly charge your mobile phone or
 
 The charge controller is under active development and you are welcome to participate.
 
-Visit the [GitHub page](https://github.com/LibreSolar/MPPT-Charger_10A "10A MPPT Solar Charge Controller with USB output") for schematics and board layout.
+Visit the [GitHub page](https://github.com/LibreSolar/MPPT-1210-HUS "10A MPPT Solar Charge Controller with USB output") for schematics and board layout.
