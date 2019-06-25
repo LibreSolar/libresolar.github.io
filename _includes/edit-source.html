@@ -1,0 +1,7 @@
+{% unless page.edit_link == false %}
+<div class="page__edit-link">
+	<a class="page__edit-link" target="_blank" href="https://github.com/{{ site.repository }}/edit/master/{{ page.path }}">
+		{{ site.data.ui-text[site.locale].improve_this_page | default: "Improve this Page" }}
+	</a>
+</div>
+{% endunless %}
