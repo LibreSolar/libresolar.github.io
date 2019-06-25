@@ -1,7 +1,9 @@
 # Libre Solar website
 
-URL: [http://libre.solar](http://libre.solar)
+Hosted on <http://libre.solar>.
 
-The Libre Solar website was built using Jekyll and Minimal Mistakes theme by Michael Rose.
+The Libre Solar website was built using the Jekyll static site builder
+and the [Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/)
+by Michael Rose.
 
-Please visit [minimal mistakes website](https://mmistakes.github.io/minimal-mistakes/) for further infos about the theme.
+
