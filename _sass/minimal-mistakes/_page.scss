@@ -67,6 +67,24 @@
   font-size: $type-size-4;
 }
 
+.page__edit-link {
+  @include clearfix;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.80em;
+  font-family: $global-font-family;
+  color: #33a;
+  font-style: italic;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: right;
+  width: 100%;
+
+  @include breakpoint($x-large) {
+    max-width: $x-large;
+  }
+}
+
 .page__content {
 
   h2 {

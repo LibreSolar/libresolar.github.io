@@ -216,6 +216,7 @@ defaults:
     values:
       layout: home
       author_profile: false
+      edit_link: false
 
   # _posts
   - scope:
@@ -237,6 +238,7 @@ defaults:
     values:
       layout: std
       author_profile: false
+      edit_link: false
   # _devices
   - scope:
       path: ""
