@@ -74,10 +74,12 @@ docs:
         url: /docs/pcb_ordering
       - title: "Bill of Materials"
         url: /docs/bom
-  - title: Software
+  - title: Firmware
     children:
-      - title: "Toolchain"
-        url: /docs/toolchain
+      - title: "Coding style"
+        url: /docs/coding_style
+      - title: "Framework"
+        url: /docs/framework
       - title: "Flashing"
         url: /docs/flashing
   - title: Communication
