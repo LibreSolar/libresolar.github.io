@@ -22,15 +22,10 @@ The coding style for Libre Solar firmware mostly follows the [K&R Style](https:/
 ## Naming
 
 - Classes, structs, typedefs and enums are named using `PascalCase` or `UpperCamelCase`. Acronyms are treated as a single word, so a JSON parser is named `JsonParser`. Custom type name endings with `_t` are not allowed, as they are [reserved](https://www.gnu.org/software/libc/manual/html_node/Reserved-Names.html) for C internal types.
-
 - Function or method names use `snake_case`.
-
 - Global and local variables, parameters and class/struct/union member names also use `snake_case`.
-
 - Macros, defines and enum elements are written in `UPPER_CASE`.
-
 - File names are always lower case to prevent incompatibilities between different operating systems.
-
 - Each header file should contain a header guard defines using the file name in upper case letters (e.g. `MY_FILE_H`) without any underscores `_` at the beginning, as names with underscores are [reserved for C libraries](https://www.gnu.org/software/libc/manual/html_node/Reserved-Names.html).
 
 ## Other
