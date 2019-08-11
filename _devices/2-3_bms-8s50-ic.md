@@ -20,5 +20,5 @@ Battery management system for up to 8 Li-ion cells based on Intersil ISL94202 IC
 
 The BMS is under active development and you are welcome to participate.
 
-Visit the [GitHub page](https://github.com/LibreSolar/BMS-8S50-IC) for schematics and board layout.
+Visit the [GitHub page](https://github.com/LibreSolar/bms-8s50-ic) for schematics and board layout.
 
