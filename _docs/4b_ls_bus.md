@@ -8,24 +8,28 @@ In contrast to the more simple LS.one interface, the LS.bus interface is based o
 
 ## Connector and pinout
 
-The connector is a standard RJ45 jack as used for Ethernet. Also the same wires (Cat. 5e twisted pair) are used, allowing reliable communication with easily available parts.
+The connector is a standard RJ45 jack as used for Ethernet. Also the same wires (Cat. 5e twisted pair or better) are used, allowing reliable communication with easily available parts.
 
-The pinout of the connector is the same as defined in the CANopen specification:
+The pinout of the connector is similar to the CANopen specification:
 
 | Pin # | Name  | Description |
 |-------|-------|-------------|
 | 1     | CAN_H | CAN bus high signal |
 | 2     | CAN_L | CAN bus low signal |
-| 3     | -     | reserved (do not connect) |
-| 4     | -     | reserved (do not connect) |
-| 5     | -     | reserved (do not connect) |
+| 3     | GND   | CAN and power supply GND (optional) |
+| 4     | V+    | Bus power supply (optional, 12-24V nominal) |
+| 5     | V+    | Bus power supply (optional, 12-24V nominal) |
 | 6     | -     | reserved (do not connect) |
-| 7     | GND   | CAN ground reference (optional) |
-| 8     | (V+)  | Preliminary: Bus power supply (optional, voltage t.b.d.) |
+| 7     | GND   | CAN and power supply GND (optional) |
+| 8     | (V+)  | Unconnected by default, optional jumper to V+ |
 
-This pinout prevents interference with Power over Ethernet (PoE), which uses pins 4 and 5 for high voltage. It should also not create any damage if accidentally connected to a standard Ethernet jack.
+The pinout specification aims to create as little interference with existing standards as possible. Most important, any damage must be prevented if a LS.bus device is accidentally connected to a standard Ethernet jack.
 
-Galvanic isolation is currently not considered mandatory, as long as all devices are connected via thick wires.
+In contrast to the CANopen specification, pin 8 is not used as the bus power supply (V+) by default. 10/100 MBit Ethernet jacks with integrated magnetics (e.g. [these ones](https://katalog.we-online.de/pbs/download/Tutorials_Connecting+LAN+Transformers_EN+%28rev1%29.pdf)) internally connect pin 4 to 5 and pin 7 to 8. In addition to that, Power over Ethernet (PoE) uses pins 4+5 for positive power rail and pins 7+8 for GND. So it's not ideal to use pin 7 as GND and pin 8 as V+. Boards can however offer a jumper to connect pin 8 with the other V+ pins (4 and 5) for bus supply of CANopen devices.
+
+Galvanic isolation is currently not considered mandatory, as long as all devices are connected via thick wires. This might change in the future.
+
+One device typically has 2 RJ45 jacks for daisy-chaining the devices and maintaining the bus topology. There is no such thing like a switch needed. However, the endpoints have to be terminated with termination plugs or resistors.
 
 ## Development status
 
