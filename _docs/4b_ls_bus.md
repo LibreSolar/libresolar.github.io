@@ -31,6 +31,10 @@ Galvanic isolation is currently not considered mandatory, as long as all devices
 
 One device typically has 2 RJ45 jacks for daisy-chaining the devices and maintaining the bus topology. There is no such thing like a switch needed. However, the endpoints have to be terminated with termination plugs or resistors.
 
+A device that supplies power to V+ may not hard-connect the daisy-chained wires without any fuses in order to ensure that the current rating per wire is not exceeded. Devices without power supply may just route through the powered wires.
+
+The maximum current per wire pair is 600 mA (300 mA per wire), same as PoE+ (IEEE 802.3at Type 2) with CAT5e cables.
+
 ## Development status
 
 The protocol for messages sent over CAN is not yet fully specified. It will be based on the [ThingSet](https://thingset.github.io/) binary protocol.
