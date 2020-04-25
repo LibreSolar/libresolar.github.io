@@ -14,7 +14,7 @@ Currently, different versions of charge controllers and battery management syste
 
 ![Development Stage](https://img.shields.io/badge/development%20stage-beta-orange.svg) Prototype built, development ongoing (major issues might still be open).
 
-![Development Stage](https://img.shields.io/badge/development%20stage-release%20candidate-yellow.svg) Tested prototype, only minor issues left.
+![Development Stage](https://img.shields.io/badge/development%20stage-eval-yellow.svg) Tested prototype, only minor issues left. Development kit might be available.
 
 ![Development Stage](https://img.shields.io/badge/development%20stage-release-green.svg) Device ready for production.
 
