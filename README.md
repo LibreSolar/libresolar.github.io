@@ -21,7 +21,7 @@ you can get all of it like this:
 
 ```bash
 # install ruby (including `gem` and git)
-sudo apt-get install -z ruby git
+sudo apt-get install -y ruby git
 # clone this repo to the local machine
 git clone https://github.com/LibreSolar/libresolar.github.io.git
 cd libresolar.github.io.git
@@ -39,4 +39,3 @@ bundle exec jekyll serve
 
 It should then be visible at <http://127.0.0.1:4000>,
 and will update whenever you change the sources.
-

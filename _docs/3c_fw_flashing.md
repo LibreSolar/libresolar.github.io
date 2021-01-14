@@ -20,7 +20,9 @@ For the boards with Cortex connector, we recommend to order [this adapter PCB](h
 
 The Libre Solar boards contain a 6-pin header with exactly the same pin-out as the SWD connector on the ST-Link/V2 of the Nucleo boards. In addition to that, you can use the serial interface built-in to the Nucleo board to transfer debug information via an additional 2-pin connector.
 
-Before you can flash the software, the device needs to be powered, either via USB or the battery.
+::: Warning
+Before you can flash the software, the device needs to be powered, either via USB or the battery. The VCC from SWD does not provide power, it just detects the supply voltage of the target.
+:::
 
 For the serial wire debug (SWD) interface just connect the same pins of the SWD connector of both boards. The following table gives an overview of the connector pinout:
 
