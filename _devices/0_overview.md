@@ -14,13 +14,13 @@ Currently, different versions of charge controllers and battery management syste
 
 ![Development Stage](https://img.shields.io/badge/development%20stage-beta-orange.svg) Prototype built, development ongoing (major issues might still be open).
 
-![Development Stage](https://img.shields.io/badge/development%20stage-eval-yellow.svg) Tested prototype, only minor issues left. Development kit might be available.
+![Development Stage](https://img.shields.io/badge/development%20stage-eval-yellow.svg) Tested prototype, only minor issues left. Development board might be available.
 
 ![Development Stage](https://img.shields.io/badge/development%20stage-release-green.svg) Device ready for production.
 
 Unless stated otherwise, none of the published devices has passed regulatory certification, so use them at your own risk and responsibility (see also [CC-BY-SA license](https://creativecommons.org/licenses/by-sa/4.0/legalcode)).
 
-We are planning to release some of the devices as fully certified products that can be bought either fully assembled or as a kit. Until then you will have to assemble the devices yourself.
+We are offering some of the devices as a development kit to make participation in the ongoing development easier. Releases of fully certified products are also planned for the future. For all other hardware you will have to order parts and assemble the device yourself.
 
 ## Versioning
 
