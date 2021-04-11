@@ -1,0 +1,76 @@
+//
+// Customized styles for Libre Solar website (overwriting default theme)
+//
+
+.navbar {
+  background-color: #005e85;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+  border: none;
+
+  .site-name {
+    color: white;
+    display: none;
+  }
+
+  .navbar-links-wrapper {
+    font-size: 1.1rem;
+    background-color: #005e85;
+    color: white;
+  }
+
+  .navbar-links {
+    a {
+      &:hover,
+      &.router-link-active {
+        color: white;
+        margin-bottom: -2px;
+        border-bottom: 2px solid white;
+        }
+    }
+  }
+
+  .navbar-links-item > a:not(.external) {
+    &:hover,
+    &.router-link-active {
+      margin-bottom: -2px;
+      border-bottom: 2px solid white;
+    }
+  }
+}
+
+.dropdown-wrapper {
+  .dropdown-title {
+    font-size: inherit;
+    color: inherit;
+  }
+  .nav-dropdown {
+    background-color: #005e85;
+    .dropdown-item {
+      color: inherit;
+      line-height: 2.0rem;
+      a {
+        &:hover {
+          color: rgb(199, 199, 199);
+        }
+      }
+    }
+  }
+}
+
+.toggle-sidebar-button {
+  color: white;
+}
+
+.fade-slide-y-enter-active {
+  transition: all 0.2s ease;
+}
+
+.fade-slide-y-leave-active {
+  transition: all 0.2s ease;
+}
+
+.fade-slide-y-enter-from,
+.fade-slide-y-leave-to {
+  transform: none;
+  opacity: 0;
+}
