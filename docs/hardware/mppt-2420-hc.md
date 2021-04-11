@@ -1,10 +1,10 @@
-# MPPT charger (20A)
+# MPPT 2420 HC - Hackable Charge Controller
 
-![Development Stage](https://img.shields.io/badge/development%20stage-beta-orange.svg) Prototype built, development ongoing (major issues might still be open).
+![Development Stage](https://img.shields.io/badge/development%20stage-eval-yellow.svg) Tested prototype, evaluation phase ongoing.
 
-The Libre Solar project started with the development of this flexible and hackable MPPT charge controller. After a few prototypes using Arduino boards and AVR 8-bit microcontrollers, the current version is based on 32-bit STM32 ARM MCU with lots of free computing power to allow your own additions in software and communication features.
+The Libre Solar project started with the development of a flexible and hackable MPPT charge controller. After a few prototypes using Arduino boards and AVR 8-bit microcontrollers, the current designs are based on 32-bit STM32 ARM MCU with lots of free computing power to allow your own additions in software and communication features.
 
-![Charge controller PCB](./images/mppt-2420-lc.jpg)
+![MPPT 2420 HC](./images/mppt-2420-hc.jpg)
 
 ## Unique features
 
@@ -35,21 +35,20 @@ If you want to know the core specifications...
 - Maximum Power Point Tracking (MPPT)
 - 12V or 24V battery output
 - 20A peak charging current
-- 55V max PV input
-- 32bit ARM MCU (STM32F072)
-- CAN communication interface with standard RJ45 jacks (CANopen pinout)
-- USB interface for firmware update and serial monitor
+- 80V max PV input
+- 32-bit ARM MCU (STM32G431)
+- CAN communication interface with standard RJ45 jacks (CANopen-compatible pinout)
 - Expandable via Olimex Universal Extension Connector (UEXT) featuring I2C, Serial and SPI interface (e.g. used for display, WIFI communication, etc.)
 - Built-in protection:
   - Overvoltage
   - Undervoltage
   - Overcurrent
   - PV short circuit
-  - PV reverse polarity (for max. module open circuit voltage of around 40V)
+  - PV reverse polarity (for max. module open circuit voltage of around 70V)
   - Battery reverse polarity (destructive, fuse is blown)
 
 ## Development
 
 The charge controller is under active development and you are welcome to participate.
 
-Visit the [GitHub page](https://github.com/LibreSolar/MPPT-2420-LC "20A MPPT Solar Charge Controller") for schematics and board layout.
+Visit the GitHub repository [LibreSolar/mppt-2420-hc](https://github.com/LibreSolar/mppt-2420-hc "20A MPPT Solar Charge Controller") for schematics and board layout.

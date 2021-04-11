@@ -1,4 +1,4 @@
-# Devices for DC energy systems
+# Open Hardware for Renewable Energy
 
 The vision behind Libre Solar is to develop open-source hardware components for a smart and renewable energy system.
 

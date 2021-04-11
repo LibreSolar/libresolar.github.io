@@ -24,7 +24,6 @@ export default defineUserConfig<DefaultThemeOptions>({
     navbar: [
       { text: 'Hardware', link: '/hardware/' },
       //{ text: 'Software', link: '/software/' },
-      { text: 'Forum', link: 'https://talk.libre.solar' },
       { text: 'Learn', link: 'https://learn.libre.solar' },
       /*{
         text: 'Learn',
@@ -34,6 +33,7 @@ export default defineUserConfig<DefaultThemeOptions>({
           { text: 'Production', link: '/learn/production.md' },
         ],
       },*/
+      { text: 'Forum', link: 'https://talk.libre.solar' },
       { text: 'About', link: '/about/' },
     ],
     sidebar: {
@@ -43,9 +43,10 @@ export default defineUserConfig<DefaultThemeOptions>({
           isGroup: true,
           children: [
             { text: 'Overview', link: '/hardware/cc-overview.md' },
-            { text: 'MPPT 2420 LC', link: '/hardware/mppt-2420-lc.md' },
+            { text: 'MPPT 2420 HC', link: '/hardware/mppt-2420-hc.md' },
             { text: 'MPPT 1210 HUS', link: '/hardware/mppt-1210-hus.md' },
             { text: 'PWM 2420 LUS', link: '/hardware/pwm-2420-lus.md' },
+            { text: 'Inactive Designs', link: '/hardware/cc-inactive.md' },
           ],
         },
         {
@@ -53,9 +54,9 @@ export default defineUserConfig<DefaultThemeOptions>({
           isGroup: true,
           children: [
             { text: 'Overview', link: '/hardware/bms-overview.md' },
-            { text: 'BMS 15S50 IC', link: '/hardware/bms-15s80-sc.md' },
-            { text: 'BMS 5S50 IC', link: '/hardware/bms-5s50-sc.md' },
             { text: 'BMS 8S50 IC', link: '/hardware/bms-8s50-ic.md' },
+            { text: 'BMS 15S50 SC', link: '/hardware/bms-15s80-sc.md' },
+            { text: 'Inactive Designs', link: '/hardware/bms-inactive.md' },
           ],
         },
         {
@@ -75,7 +76,7 @@ export default defineUserConfig<DefaultThemeOptions>({
           ],
         },
       ],
-      /*'/software/': [
+      '/software/': [
         {
           text: 'Firmware',
           isGroup: true,
@@ -93,7 +94,14 @@ export default defineUserConfig<DefaultThemeOptions>({
             { text: 'EmonCMS', link: '/software/emoncms.md' },
           ],
         },
-      ],*/
+        {
+          text: 'Communication',
+          isGroup: true,
+          children: [
+            { text: 'ThingSet Protocol', link: '/software/thingset.md' },
+          ],
+        },
+      ],
       '/about/': [
         {
           text: 'Libre Solar',

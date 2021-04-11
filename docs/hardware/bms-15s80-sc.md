@@ -1,4 +1,4 @@
-# 24V/48V Battery Management System
+# 24V/36V/48V Battery Management System
 
 ![Development Stage](https://img.shields.io/badge/development%20stage-beta-orange.svg) Prototype built, development ongoing (major issues might still be open).
 
@@ -35,7 +35,6 @@ Please find a good description about system integration of the BMS in the [Open 
 
 ## Development
 
-The BMS is under active development and you are welcome to participate.
+This BMS was still developed with Eagle. We are currently working on the next generation based on the TI BQ76952 for up to 16 cells. As for all new designs, it will be developed with KiCad.
 
-Visit the [GitHub page](https://github.com/LibreSolar/BMS-15S80-SC "12V/48V Battery Management System") for schematics and board layout.
-
+For schematics and board layout of the existing design visit the GitHub repository [LibreSolar/bms-15s80-sc](https://github.com/LibreSolar/BMS-15S80-SC "12V/48V Battery Management System").

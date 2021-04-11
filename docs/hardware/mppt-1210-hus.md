@@ -1,4 +1,4 @@
-# MPPT charger (10A) with dual USB output
+# MPPT 1210 HUS - Battery & USB Charger
 
 ![Development Stage](https://img.shields.io/badge/development%20stage-eval-yellow.svg) Tested prototype, evaluation boards available.
 

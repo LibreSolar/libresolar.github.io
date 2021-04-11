@@ -1,6 +1,6 @@
-# PWM charger (20A) with USB output
+# PWM 2420 LUS - Battery & USB Charger
 
-![Development Stage](https://img.shields.io/badge/development%20stage-release%20candidate-yellow.svg) Tested prototype, only minor issues left.
+![Development Stage](https://img.shields.io/badge/development%20stage-eval-yellow.svg) Tested prototype, only minor issues left.
 
 This PWM charge controller is cheaper than the MPPT charge controllers, as it does not contain the internal powerful DC/DC converter necessary for MPPT. The lower production cost and easy manufacturing with larger SMD components makes it ideally suited for solar home systems (SHS) for rural electrification.
 
