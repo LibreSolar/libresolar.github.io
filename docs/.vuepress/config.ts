@@ -33,7 +33,7 @@ export default defineUserConfig<DefaultThemeOptions>({
           { text: 'Production', link: '/learn/production.md' },
         ],
       },*/
-      { text: 'Forum', link: 'https://talk.libre.solar' },
+      { text: 'Forum', link: 'https://talk.libre.solar', target:'_self' },
       { text: 'About', link: '/about/' },
     ],
     sidebar: {
