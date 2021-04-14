@@ -23,7 +23,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     logo: '/images/libresolar-logo-white-header.png',
     navbar: [
       { text: 'Hardware', link: '/hardware/' },
-      //{ text: 'Software', link: '/software/' },
+      { text: 'Software', link: '/software/' },
       { text: 'Learn', link: 'https://learn.libre.solar' },
       /*{
         text: 'Learn',
@@ -86,14 +86,14 @@ export default defineUserConfig<DefaultThemeOptions>({
             { text: 'ESP32 Edge', link: '/software/esp32-edge.md' },
           ],
         },
-        {
+        /*{
           text: 'Cloud Integration',
           isGroup: true,
           children: [
             { text: 'Grafana', link: '/software/grafana.md' },
             { text: 'EmonCMS', link: '/software/emoncms.md' },
           ],
-        },
+        },*/
         {
           text: 'Communication',
           isGroup: true,
