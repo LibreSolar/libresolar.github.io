@@ -18,4 +18,4 @@ Publication messages are directly broadcast through the network. There is *no* i
 
 ## Specification and ongoing development
 
-The ThingSet protocol is under active development. Visit [libre.solar/thingset](https://libre.solar/thingset/) for the specification document and further information.
+The ThingSet protocol is under active development. Visit [thingset.io](https://thingset.io/) for the specification document and further information.

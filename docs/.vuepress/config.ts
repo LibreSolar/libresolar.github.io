@@ -117,6 +117,8 @@ export default defineUserConfig<DefaultThemeOptions>({
           isGroup: true,
           children: [
             { text: 'Open HW Projects', link: '/about/open-hw-projects.md' },
+            //{ text: 'Cloud Solar', link: '/about/cloud-solar.md' },
+            //{ text: 'Evolving Grids', link: '/about/evolving-grids.md' },
           ],
         },
       ],

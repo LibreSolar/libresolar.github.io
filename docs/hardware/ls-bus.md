@@ -33,4 +33,4 @@ The maximum current per wire pair is 600 mA (300 mA per wire), same as PoE+ (IEE
 
 ## Development status
 
-The protocol for messages sent over CAN is not yet fully specified. It will be based on the [ThingSet](https://thingset.github.io/) binary protocol.
+The protocol for messages sent over CAN is not yet fully specified. It will be based on the [ThingSet](https://thingset.io/) binary protocol.
