@@ -21,6 +21,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   theme: path.resolve(__dirname, './theme'),
   themeConfig: {
     logo: '/images/libresolar-logo-white-header.png',
+    darkMode: false,
     navbar: [
       { text: 'Hardware', link: '/hardware/' },
       { text: 'Software', link: '/software/' },
@@ -40,7 +41,6 @@ export default defineUserConfig<DefaultThemeOptions>({
       '/hardware/': [
         {
           text: 'Charge Controllers',
-          isGroup: true,
           children: [
             { text: 'Overview', link: '/hardware/cc-overview.md' },
             { text: 'MPPT 2420 HC', link: '/hardware/mppt-2420-hc.md' },
@@ -51,7 +51,6 @@ export default defineUserConfig<DefaultThemeOptions>({
         },
         {
           text: 'Battery Management',
-          isGroup: true,
           children: [
             { text: 'Overview', link: '/hardware/bms-overview.md' },
             { text: 'BMS 8S50 IC', link: '/hardware/bms-8s50-ic.md' },
@@ -61,7 +60,6 @@ export default defineUserConfig<DefaultThemeOptions>({
         },
         {
           text: 'Other Devices',
-          isGroup: true,
           children: [
             { text: 'RPi CAN gateway', link: '/hardware/rpi-can.md' },
             { text: 'UEXT modules', link: '/hardware/uext-modules.md' },
@@ -69,7 +67,6 @@ export default defineUserConfig<DefaultThemeOptions>({
         },
         {
           text: 'Interfaces',
-          isGroup: true,
           children: [
             { text: 'LS.one', link: '/hardware/ls-one.md' },
             { text: 'LS.bus', link: '/hardware/ls-bus.md' },
@@ -79,7 +76,6 @@ export default defineUserConfig<DefaultThemeOptions>({
       '/software/': [
         {
           text: 'Firmware',
-          isGroup: true,
           children: [
             { text: 'Charge Controller', link: '/software/charge-controller.md' },
             { text: 'Battery Management', link: '/software/bms.md' },
@@ -88,7 +84,6 @@ export default defineUserConfig<DefaultThemeOptions>({
         },
         /*{
           text: 'Cloud Integration',
-          isGroup: true,
           children: [
             { text: 'Grafana', link: '/software/grafana.md' },
             { text: 'EmonCMS', link: '/software/emoncms.md' },
@@ -96,7 +91,6 @@ export default defineUserConfig<DefaultThemeOptions>({
         },*/
         {
           text: 'Communication',
-          isGroup: true,
           children: [
             { text: 'ThingSet Protocol', link: '/software/thingset.md' },
           ],
@@ -105,7 +99,6 @@ export default defineUserConfig<DefaultThemeOptions>({
       '/about/': [
         {
           text: 'Libre Solar',
-          isGroup: true,
           children: [
             { text: 'Mission', link: '/about/mission.md' },
             { text: 'Support', link: '/about/support.md' },
@@ -114,7 +107,6 @@ export default defineUserConfig<DefaultThemeOptions>({
         },
         {
           text: 'Partners & Projects',
-          isGroup: true,
           children: [
             { text: 'Open HW Projects', link: '/about/open-hw-projects.md' },
             //{ text: 'Cloud Solar', link: '/about/cloud-solar.md' },

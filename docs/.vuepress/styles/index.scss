@@ -2,6 +2,25 @@
 // Customized styles for Libre Solar website (overwriting default theme)
 //
 
+:root {
+  // brand colors
+  --c-brand: #005e85;
+  --c-brand-light: #005e85;
+
+  // background colors
+  --c-bg: #ffffff;
+  --c-bg-light: #f3f4f5;
+  --c-bg-lighter: #eeeeee;
+  --c-bg-navbar: var(--c-bg-light);
+
+  // border colors
+  --c-border: #cfcfcf;
+  --c-border-dark: #dfe2e5;
+
+  // layout vars
+  --navbar-height: 4rem;
+}
+
 .navbar {
   background-color: #005e85;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
