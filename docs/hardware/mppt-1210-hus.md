@@ -10,25 +10,6 @@ With the integrated dual USB output you can directly charge your mobile phone or
 
 ![Charge controller PCB](./images/mppt-1210-hus.jpg)
 
-## Buy development board
-
-You can buy a fully assembled board as shown in the picture above. It uses SMD LEDs which can be replaced by THT LEDs depending on the application.
-
-The board comes without a housing. Suitable CAD files for 3D printing can be found [here](https://github.com/LibreSolar/charge-controller-housings/tree/master/MPPT-PWM-xUS).
-
-Please check the [GitHub repository](https://github.com/LibreSolar/MPPT-1210-HUS) for full technical details and a manual.
-
-**Important:** This is a development board for evaluation and requires expert knowledge to use it, including flashing [the firmware](https://github.com/LibreSolar/charge-controller-firmware). It is not a product for normal end users, yet.
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="5MF9M5MVDQZ4L">
-<input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
-<img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-**Please note:** Due to COVID-19 a worldwide shipment is not possible at the moment, so we can only offer shipping inside the Europe. If you want shipping outside Europe, please [get in contact](https://libre.solar/about/contact/) first to check possible options.
-
 ## Features
 
 - Maximum Power Point Tracking (MPPT)
