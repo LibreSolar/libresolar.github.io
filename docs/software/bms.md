@@ -2,7 +2,7 @@
 
 Modular firmware based on Zephyr RTOS for low-voltage Li-ion batteries.
 
-![build badge](https://travis-ci.com/LibreSolar/bms-firmware.svg?branch=main)
+![build badge](https://github.com/LibreSolar/bms-firmware/actions/workflows/zephyr.yml/badge.svg)
 
 GitHub repository: [LibreSolar/bms-firmware](https://github.com/LibreSolar/bms-firmware)
 

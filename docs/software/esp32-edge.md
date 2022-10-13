@@ -32,7 +32,7 @@ The data can be accessed in the same way as described above.
 - Data input from Libre Solar devices via
     - [LS.bus](ls-bus.md) (CAN bus)
     - [LS.one](ls-one.md) (UART serial)
-- Local communication via [ThingSet Protocol](https://libre.solar/thingset/)
+- Local communication via [ThingSet Protocol](thingset.md)
 - Data access via HTTP JSON API
 - Publishing of monitoring data via WiFi to
     - Open Energy Monitor [Emoncms](https://emoncms.org/)

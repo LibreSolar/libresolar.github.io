@@ -2,7 +2,7 @@
 
 Flexible firmware based on Zephyr RTOS for MPPT and PWM solar/wind charge controllers.
 
-![build badge](https://travis-ci.com/LibreSolar/charge-controller-firmware.svg?branch=main)
+![build badge](https://github.com/LibreSolar/charge-controller-firmware/actions/workflows/zephyr.yml/badge.svg)
 
 GitHub repository: [LibreSolar/charge-controller-firmware](https://github.com/LibreSolar/charge-controller-firmware)
 
