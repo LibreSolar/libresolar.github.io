@@ -53,8 +53,8 @@ export default defineUserConfig<DefaultThemeOptions>({
           text: 'Battery Management',
           children: [
             { text: 'Overview', link: '/hardware/bms-overview.md' },
+            { text: 'BMS C1', link: '/hardware/bms-c1.md' },
             { text: 'BMS 8S50 IC', link: '/hardware/bms-8s50-ic.md' },
-            { text: 'BMS 15S50 SC', link: '/hardware/bms-15s80-sc.md' },
             { text: 'Inactive Designs', link: '/hardware/bms-inactive.md' },
           ],
         },
