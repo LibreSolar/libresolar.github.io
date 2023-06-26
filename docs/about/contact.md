@@ -8,7 +8,7 @@ Libre Solar Technologies GmbH<br/>
 Caffamacherreihe 43<br/>
 20355 Hamburg<br/>
 
-Telefon: +49 (0) 160 94179007<br/>
+Telefon: +49 (0) 40 88190988<br/>
 E-Mail: info at libre dot solar<br/>
 
 *Remark:* We don't answer technical questions via E-Mail. Please use the [community platform](https://talk.libre.solar) instead, so that others with similar questions can also find the information.

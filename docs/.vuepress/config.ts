@@ -79,7 +79,6 @@ export default defineUserConfig<DefaultThemeOptions>({
           children: [
             { text: 'Charge Controller', link: '/software/charge-controller.md' },
             { text: 'Battery Management', link: '/software/bms.md' },
-            { text: 'ESP32 Edge', link: '/software/esp32-edge.md' },
           ],
         },
         /*{

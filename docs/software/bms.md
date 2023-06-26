@@ -40,7 +40,7 @@ The chips currently supported by the firmware are listed below.
 | Texas Instruments  | bq76920  |   3s-5s | full support | [link](https://www.ti.com/lit/ds/symlink/bq76920.pdf)
 | Texas Instruments  | bq76930  |  6s-10s | full support | [link](https://www.ti.com/lit/ds/symlink/bq76930.pdf)
 | Texas Instruments  | bq76940  |  9s-15s | full support | [link](https://www.ti.com/lit/ds/symlink/bq76940.pdf)
-| Texas Instruments  | BQ76952  |  3s-16s | support planned | [link](https://www.ti.com/lit/ds/symlink/bq76952.pdf)
+| Texas Instruments  | BQ76952  |  3s-16s | full support | [link](https://www.ti.com/lit/ds/symlink/bq76952.pdf)
 | Renesas / Intersil | ISL94202 |   3s-8s | full support | [link](https://www.renesas.com/us/en/document/dst/isl94202-datasheet)
 
 
