@@ -1,7 +1,7 @@
 ---
 home: true
 title: Building Blocks for DC Energy Systems
-heroImage: /images/schematic.png
+heroImage: /images/bms-testing-small.jpg
 actions:
   - text: Explore Hardware
     link: /hardware/
