@@ -2,9 +2,9 @@
 # https://kaizendorks.github.io/2020/04/16/vuepress-github-actions/
 
 name: Deploy VuePress static site to GitHub pages
-on:
-  push:
-    branches: [ main ]
+
+on: [push, pull_request]
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -30,6 +30,7 @@ jobs:
         git commit -m 'deploy'
 
     - name: Force push to destination branch
+      if: github.ref == 'refs/heads/main'
       uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
