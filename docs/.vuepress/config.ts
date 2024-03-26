@@ -1,9 +1,7 @@
-import { defineUserConfig } from 'vuepress'
-import type { DefaultThemeOptions } from 'vuepress'
+import { defaultTheme } from '@vuepress/theme-default'
+import { viteBundler } from '@vuepress/bundler-vite'
 
-var path = require('path');
-
-export default defineUserConfig<DefaultThemeOptions>({
+export default ({
   lang: 'en',
   title: 'The Libre Solar Project',
   description: 'Building Blocks for DC Energy Systems',
@@ -18,10 +16,11 @@ export default defineUserConfig<DefaultThemeOptions>({
     ['meta', { name: "msapplication-config", content: "/favicons/browserconfig.xml"}],
     ['meta', { name: "theme-color", content: "#ffffff"}],
   ],
-  theme: path.resolve(__dirname, './theme'),
-  themeConfig: {
+  theme: defaultTheme({
+    // set theme config here
     logo: '/images/libresolar-logo-white-header.png',
-    darkMode: false,
+    colorMode: 'light',
+    colorModeSwitch: false,
     navbar: [
       { text: 'Hardware', link: '/hardware/' },
       { text: 'Software', link: '/software/' },
@@ -110,7 +109,11 @@ export default defineUserConfig<DefaultThemeOptions>({
     docsRepo: 'LibreSolar/libresolar.github.io',
     docsDir: 'docs',
     docsBranch: 'main',
-    editLinks: true,
+    editLink: true,
     lastUpdated: true,
-  }
+  }),
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+  }),
 })

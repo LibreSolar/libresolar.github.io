@@ -31,16 +31,16 @@
     display: none;
   }
 
-  .navbar-links-wrapper {
+  .navbar-items-wrapper {
     font-size: 1.1rem;
     background-color: #005e85;
     color: white;
   }
 
-  .navbar-links {
+  .navbar-items {
     a {
       &:hover,
-      &.router-link-active {
+      &.route-link-active {
         color: white;
         margin-bottom: -2px;
         border-bottom: 2px solid white;
@@ -48,9 +48,9 @@
     }
   }
 
-  .navbar-links-item > a:not(.external) {
+  .navbar-item > a:not(.external) {
     &:hover,
-    &.router-link-active {
+    &.route-link-active {
       margin-bottom: -2px;
       border-bottom: 2px solid white;
     }
