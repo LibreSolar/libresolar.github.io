@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # BMS C1
 
 ![Development Stage](https://img.shields.io/badge/development%20stage-beta-orange.svg) Prototype built, development ongoing (some issues might still be open).
@@ -45,9 +50,3 @@ Visit the GitHub repository [LibreSolar/bms-c1](https://github.com/LibreSolar/bm
 ## Firmware
 
 The firmware is developed in a separate repository [LibreSolar/bms-firmware](https://github.com/LibreSolar/bms-firmware).
-
-## License
-
-The hardware is licensed under the [CERN Open Hardware Licence Version 2 - Weakly Reciprocal](LICENCE).
-
-Documentation is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License](https://creativecommons.org/licenses/by-sa/4.0/).

@@ -1,7 +1,7 @@
 # Script based on following guide:
 # https://kaizendorks.github.io/2020/04/16/vuepress-github-actions/
 
-name: Deploy VuePress static site to GitHub pages
+name: Deploy VitePress static site to GitHub pages
 
 on: [push, pull_request]
 
@@ -10,18 +10,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-    - name: Generate static vuepress files
+    - name: Generate static VitePress files
       uses: actions/setup-node@v1
       with:
         node-version: '21.x'
-    - run: npm ci
-    - run: npm run build
+    - run: |
+        npm install
+        npm run docs:build
 
     - name: Init new repo in dist folder and commit generated files
       run: |
-        cd docs/.vuepress/dist
+        cd .vitepress/dist
         echo "libre.solar" > CNAME
         git init
         git add -A
@@ -29,11 +31,11 @@ jobs:
         git config --local user.name "GitHub Action"
         git commit -m 'deploy'
 
-    - name: Force push to destination branch
+    - name: Force push to gh-pages branch
       if: github.ref == 'refs/heads/main'
-      uses: ad-m/github-push-action@v0.6.0
+      uses: ad-m/github-push-action@v0.8.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages
         force: true
-        directory: ./docs/.vuepress/dist
+        directory: .vitepress/dist

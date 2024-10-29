@@ -3,4 +3,4 @@
 * text=auto
 
 # Make github linguist recognize this repository as markdown
-docs/* linguist-documentation=false
+src/* linguist-documentation=false

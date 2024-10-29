@@ -1,15 +1,13 @@
 # Libre Solar website
 
-This repository hosts the Libre Solar website (https://libre.solar) built with VuePress.
+This repository hosts the Libre Solar website (https://libre.solar) built with [VitePress](https://vitepress.dev/).
 
 You can contribute by cloning the repository to your private GitHub workspace and sending pull-requests with upates you made.
 
-For local deployment run the following commands:
+For development run the following commands:
 
     npm install
-    npm run dev
-
-install [VuePress](https://vuepress.vuejs.org/) and run `yarn docs:dev` in the root directory of this repository. Afterwards, you can see the result in your favourite web browser at `http://localhost:8080`.
+    npm run docs:dev
 
 ## Style Guide
 

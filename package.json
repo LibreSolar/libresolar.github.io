@@ -1,16 +1,12 @@
 {
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "info": "vuepress info"
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "^2.0.0-rc.15",
-    "sass-embedded": "^1.79.3",
-    "vuepress": "^2.0.0-rc.15"
+    "vitepress": "^1.4.2",
+    "vue": "^3.5.12"
   },
-  "license": "CC-BY-SA-4.0",
-  "dependencies": {
-    "@vuepress/theme-default": "^2.0.0-rc.49"
-  }
+  "license": "CC-BY-SA-4.0"
 }

@@ -1,11 +1,16 @@
 ---
-home: true
-title: Building Blocks for DC Energy Systems
-heroImage: /images/bms-testing-small.jpg
-actions:
-  - text: Explore Hardware
-    link: /hardware/
-    type: primary
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: The Libre Solar Project
+  tagline: Building Blocks for Renewable Energy Systems
+  image:
+    src: /images/bms-testing-small.jpg
+  actions:
+    - text: Explore Hardware
+      link: /hardware/
+      theme: brand
 features:
   - title: Hardware and Software
     details: Flexible MPPT/PWM solar charge controllers and battery management systems (BMS) for Li-ion batteries

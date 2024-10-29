@@ -2,7 +2,7 @@
 
 ![Development Stage](https://img.shields.io/badge/development%20stage-eval-yellow.svg) Tested prototype, evaluation boards available.
 
-This charge controller is based on the [20A MPPT](/devices/mppt-charger-20a/), but has reduced number of components and cheaper DC/DC power stage for 10A.
+This charge controller is based on the [20A MPPT](/hardware/cc-inactive#mppt-2420-lc), but has reduced number of components and cheaper DC/DC power stage for 10A.
 
 The power is sufficient for small 12V applications with up to 150 W solar panels.
 
