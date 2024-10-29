@@ -111,6 +111,7 @@ export default ({
     docsBranch: 'main',
     editLink: true,
     lastUpdated: true,
+    sidebarDepth: 1,
   }),
   bundler: viteBundler({
     viteOptions: {},
