@@ -36,7 +36,7 @@ export default defineConfig({
         ],
       },*/
       { text: 'Forum', link: 'https://talk.libre.solar', target:'_self' },
-      { text: 'About', link: '/about/' },
+      { text: 'About', link: '/about' },
     ],
 
     sidebar: {
@@ -97,16 +97,6 @@ export default defineConfig({
           ],
         },
       ],
-      '/about/': [
-        {
-          text: 'Libre Solar',
-          items: [
-            { text: 'Mission', link: '/about/mission.md' },
-            { text: 'Support', link: '/about/support.md' },
-            { text: 'Contact', link: '/about/contact.md' },
-          ],
-        },
-      ],
     },
 
     socialLinks: [
@@ -117,7 +107,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'The Libre Solar Project | <span style="padding: 5px;"><a href="https://libre.solar/about/contact.html">Contact / Impressum</a>',
+      message: 'The Libre Solar Project | <span style="padding: 5px;"><a href="contact.html">Contact / Impressum</a>',
     },
   },
   markdown: {
