@@ -110,6 +110,7 @@ export default defineConfig({
       message: 'The Libre Solar Project | <span style="padding: 5px;"><a href="contact.html">Contact / Impressum</a>',
     },
   },
+  lastUpdated: true,
   markdown: {
     math: true
   },

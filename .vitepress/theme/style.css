@@ -68,6 +68,7 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
+  --vp-sidebar-bg-color: var(--vp-c-bg);
 }
 
 /**
@@ -139,9 +140,47 @@
 
 :root {
   --vp-nav-logo-height: 32px;
+  /* new variable not defined by original theme */
+  --vp-footer-height: 60px;
 }
 
 /* disable prev/next buttons on all pages */
-.pager {
-  display: none;
+.prev-next {
+  display: none !important;
+}
+
+/* add divider above edit link at the bottom of each page */
+.edit-info {
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+/* show footer on every page (see https://github.com/vuejs/vitepress/issues/1037) */
+footer.VPFooter {
+  display: block !important;
+  padding: 16px !important;
+  height: var(--vp-footer-height);
+}
+
+/* expand nav bar divider to full screen width */
+.VPNavBar .divider {
+  padding-left: 0 !important;
+}
+.VPNavBarTitle .title {
+  border-bottom: 0 !important;
+}
+
+/* make sure the sidebar doesn't overlap header and footer dividers */
+.VPSidebar {
+  margin-top: var(--vp-nav-height) !important;
+  margin-bottom: var(--vp-footer-height) !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+/* remove unnecessary space at the bottom */
+.VPDoc {
+  padding-bottom: 24px !important;
+}
+.content {
+  padding-bottom: 0 !important;
 }
