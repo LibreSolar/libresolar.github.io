@@ -104,11 +104,12 @@ export default defineConfig({
       { icon: 'linkedin', link: 'https://www.linkedin.com/company/libre-solar/' },
     ],
     editLink: {
-      pattern: 'https://github.com/LibreSolar/libresolar.github.io/edit/main/:path',
+      pattern: 'https://github.com/LibreSolar/libresolar.github.io/edit/main/src/:path',
     },
 
     footer: {
-      message: 'The Libre Solar Project | <span style="padding: 5px;"><a href="contact.html">Contact / Impressum</a>',
+      message: '<span style="padding: 5px;">The Libre Solar Project</span> | ' +
+        '<span style="padding: 5px;"><a href="/contact.html">Contact / Impressum</a></span>',
     },
   },
   lastUpdated: true,
