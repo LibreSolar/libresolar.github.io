@@ -101,6 +101,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/LibreSolar' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/company/libre-solar/' },
     ],
     editLink: {
       pattern: 'https://github.com/LibreSolar/libresolar.github.io/edit/main/:path',
