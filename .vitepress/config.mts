@@ -26,6 +26,7 @@ export default defineConfig({
     nav: [
       { text: 'Hardware', link: '/hardware/' },
       { text: 'Software', link: '/software/' },
+      { text: 'Support', link: '/support/' },
       { text: 'Learn', link: 'https://learn.libre.solar' },
       /*{
         text: 'Learn',
@@ -35,7 +36,6 @@ export default defineConfig({
           { text: 'Production', link: '/learn/production.md' },
         ],
       },*/
-      { text: 'Forum', link: 'https://talk.libre.solar', target:'_self' },
       { text: 'About', link: '/about' },
     ],
 

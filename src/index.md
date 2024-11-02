@@ -11,6 +11,9 @@ hero:
     - text: Explore Hardware
       link: /hardware/
       theme: brand
+    - text: Get Support
+      link: /support/
+      theme: alt
 features:
   - title: Hardware and Software
     details: Flexible MPPT/PWM solar charge controllers and battery management systems (BMS) for Li-ion batteries
